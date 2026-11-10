@@ -1,4 +1,7 @@
 const ALLOWED_ORIGIN_PATTERNS = [
+  // Ethos Research deployment (F3nk fork)
+  /^https:\/\/monitor\.ethosresearch\.xyz$/,
+  /^https:\/\/worldmonitor-steel-sigma\.vercel\.app$/,
   /^https:\/\/(.*\.)?worldmonitor\.app$/,
   /^https:\/\/worldmonitor-[a-z0-9-]+-elie-[a-z0-9]+\.vercel\.app$/,
   /^https?:\/\/localhost(:\d+)?$/,

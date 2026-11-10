@@ -8,6 +8,9 @@
 declare const process: { env: Record<string, string | undefined> };
 
 const PRODUCTION_PATTERNS: RegExp[] = [
+  // Ethos Research deployment (F3nk fork)
+  /^https:\/\/monitor\.ethosresearch\.xyz$/,
+  /^https:\/\/worldmonitor-steel-sigma\.vercel\.app$/,
   /^https:\/\/(.*\.)?worldmonitor\.app$/,
   /^https:\/\/worldmonitor-[a-z0-9-]+-elie-[a-z0-9]+\.vercel\.app$/,
   /^https?:\/\/tauri\.localhost(:\d+)?$/,
